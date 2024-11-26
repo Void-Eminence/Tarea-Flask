@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block content %}
+        <article class="media content-section">
+          <div class="media-body">
+            <legend class="border-bottom mb-4">Acerca del Navegador</legend>
+            <p class="article-content">La dirección IP de la que estás accediendo es {{ ipaddr }}. </p>
+            <p class="article-content">El navegador te identifica como: {{ uastr }}</p>
+          </div>
+        </article>
+{% endblock content %}

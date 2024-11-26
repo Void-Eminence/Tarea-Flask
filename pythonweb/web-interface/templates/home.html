@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block content %}
+        <article class="media content-section">
+
+          <div class="media-body">
+            <legend class="border-bottom mb-4">Página de pruebas</legend>
+            
+            <p class="article-content">Este es un sitio web de prueba utilizando Flask. </p>
+            <p class="article-content">Actualmente no tiene ningún contenido ni funcionalidad, de manera que sirva como una plantilla vacía para poder mostrar el contenido deseado, o implementar una funcionalidad sin tener que partir desde cero.</p>
+          </div>
+        </article>
+<div class="d-flex justify-content-end">
+<a href="{{ url_for('browser') }}" class="btn btn-primary btn-lg " role="button" aria-disabled="true">Ver datos del navegador</a>
+</div>
+{% endblock content %}
